@@ -1,7 +1,7 @@
 <?php
 
   $query = "SELECT * FROM `category`;";
-  $result = $db->display($query);
+  $result = $db->getRow($query);
   ?>
     <section id="category-section">
       <div class="container">

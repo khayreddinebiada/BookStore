@@ -1,7 +1,7 @@
 <?php
 class database {
     public $link;
-    /*
+
     public function __construct() {
       try {
         $this->link = mysqli_connect("localhost","root","","bokshop");
@@ -10,8 +10,8 @@ class database {
             die("Connect is error");
       }
     }
-    */
-    public function __construct($server, $user, $pass,$db) {
+
+    public function __construct2($server, $user, $pass,$db) {
 
       try {
         $this->link = mysqli_connect($server, $user, $pass,$db);
@@ -29,7 +29,7 @@ class database {
             return false;
     }
 
-    public function display($query){
+    public function getRow($query){
 
         $re = mysqli_query($this->link, $query);
         if (mysqli_num_rows($re) == 0)

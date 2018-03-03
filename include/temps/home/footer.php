@@ -24,6 +24,6 @@
 
     <script src="layouts/js/bookblock.min.js"></script>
     <script src="layouts/js/classie.js"></script>
-    <script src="layouts/js/bookshelf.js"></script>
+    <!-- <script src="layouts/js/bookshelf.js"></script> -->
   </body>
 </html>
