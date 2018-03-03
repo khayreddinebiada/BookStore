@@ -1,0 +1,10 @@
+<?php include('include/temps/home/init.php') ?>
+<?php include('include/temps/home/head.php') ?>
+<?php include('include/temps/home/slider.php') ?>
+<?php include('include/temps/home/pdtMarketing.php') ?>
+<?php include('include/temps/home/shopSection.php') ?>
+<?php include('include/temps/home/subscribe.php') ?>
+<?php include('include/temps/home/category.php') ?>
+<?php include('include/temps/home/news.php') ?>
+<?php include('include/temps/home/contact.php') ?>
+<?php include('include/temps/home/footer.php') ?>
